@@ -1,0 +1,19 @@
+{
+  "name": "myelin-sling",
+  "port": 8882,
+  "runtimePort": 8782,
+  "games": [
+    {
+      "id": "sling",
+      "webRoot": "dist/sling",
+      "runtimePath": "",
+      "rooms": false,
+      "socket": false
+    }
+  ],
+  "runtimeCommand": [
+    "target/release/myelin-sling"
+  ],
+  "manifest": "games/sling/Cargo.toml",
+  "plugin": "./items.mjs"
+}
